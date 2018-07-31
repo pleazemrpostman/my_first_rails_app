@@ -1,0 +1,78 @@
+{
+  "Version": "18.04",
+  "OEM": {
+    "Vendor": "SAMSUNG ELECTRONICS CO., LTD.",
+    "Product": "R540/SA41/E452"
+  },
+  "BIOS": {
+    "Vendor": "American Megatrends Inc.",
+    "Version": "01KP.M005.20100629.LDG"
+  },
+  "CPU": {
+    "OpMode": "32-bit, 64-bit",
+    "CPUs": "4",
+    "Threads": "2",
+    "Cores": "2",
+    "Sockets": "1",
+    "Vendor": "GenuineIntel",
+    "Family": "6",
+    "Model": "37",
+    "Stepping": "5",
+    "Name": "Intel(R) Core(TM) i5 CPU       M 520  @ 2.40GHz",
+    "Virtualization": "VT-x"
+  },
+  "Arch": "amd64",
+  "GPU": [
+    {
+      "Vendor": "1002",
+      "Model": "9553"
+    }
+  ],
+  "RAM": 3.9,
+  "Partitions": [
+    30.9
+  ],
+  "Screens": [
+    {
+      "Size": "344mmx194mm",
+      "Resolution": "1366x768",
+      "Frequency": "60.00"
+    }
+  ],
+  "Autologin": true,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "x11"
+  },
+  "Language": "en_US",
+  "Timezone": "Europe/Istanbul",
+  "Install": {
+    "Media": "Ubuntu 18.04.1 LTS \"Bionic Beaver\" - Release amd64 (20180725)",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "resize_use_free",
+    "DownloadUpdates": true,
+    "Language": "en",
+    "Minimal": false,
+    "RestrictedAddons": true,
+    "Stages": {
+      "0": "language",
+      "1": "language",
+      "14": "console_setup",
+      "20": "console_setup",
+      "23": "console_setup",
+      "25": "wireless",
+      "67": "prepare",
+      "146": "partman",
+      "170": "start_install",
+      "196": "timezone",
+      "253": "usersetup",
+      "256": "timezone",
+      "258": "usersetup",
+      "282": "user_done",
+      "1054": "done"
+    }
+  }
+}

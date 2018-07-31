@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="yelp.desktop" open-window-count="0" score="0" last-seen="1533061815"/>
+    <application id="firefox.desktop" open-window-count="1" score="484" last-seen="1533062365"/>
+    <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1533055711"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="0" last-seen="1533059997"/>
+    <application id="spotify_spotify.desktop" open-window-count="1" score="29" last-seen="1533062156"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="2" score="307" last-seen="1533062368"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="0" score="7" last-seen="1533055684"/>
+    <application id="org.gnome.Software.desktop" open-window-count="1" score="30" last-seen="1533061895"/>
+  </context>
+</application-state>

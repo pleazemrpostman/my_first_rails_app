@@ -1,0 +1,15 @@
+2018-07-31T17:51:36.608Z Error: Invalid credentials provided.
+2018-07-31T17:51:36.608Z Error ID: unauthorized
+2018-07-31T17:51:36.608Z     at Login.login (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:79:19)
+2018/07/31 17:51:36 Error: Command failed: heroku login
+    at checkExecSyncError (child_process.js:603:11)
+    at Object.execSync (child_process.js:640:13)
+    at relogin (/usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:123:28)
+    at /usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:162:18
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018/07/31 18:27:29 Error: Expected response to be successful, got 409
+    at Request.handleFailure [as _handleFailure] (/usr/local/lib/heroku/node_modules/heroku-client/lib/request.js:254:11)
+    at Request.<anonymous> (/usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at concat.then (/usr/local/lib/heroku/node_modules/heroku-client/lib/request.js:148:16)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2018/07/31 18:27:29 {"id":"conflict","message":"Cannot run one-off process at this time. Please try again later."}
